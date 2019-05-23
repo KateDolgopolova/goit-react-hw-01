@@ -1,0 +1,59 @@
+.item {
+  width: 453px;
+  list-style-type: none;
+  margin: auto;
+}
+
+.icon {
+  display: inline-block;
+  width: 210px;
+  height: 160px;
+  background-repeat: no-repeat;
+}
+
+.icon:first-child {
+  margin: 188px 114px 45px;
+}
+
+.icon:last-child {
+  margin: 87px 115px 45px;
+}
+
+.label {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 35px;
+  color: #dd7c4b;
+}
+
+.capacity {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 17px;
+  color: #b4b4b4;
+}
+
+.description {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 15px;
+  color: #bababa;
+}
+
+.price {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 40px;
+  color: #7f8c8d;
+}
+
+.button {
+  width: 202px;
+  height: 50px;
+  background-color: #dd7c4b;
+  font-family: Myriad Pro, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.plan {
+  display: flex;
+  flex-direction: row;
+}

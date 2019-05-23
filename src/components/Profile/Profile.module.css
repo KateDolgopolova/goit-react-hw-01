@@ -1,0 +1,42 @@
+.wrapper {
+  width: 250px;
+  margin: auto;
+}
+.container {
+  width: 251px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.avatar {
+  padding: 32px 75px;
+  text-align: center;
+  width: 105px;
+  height: 94px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.text {
+  font-family: Myriad Pro, sans-serif;
+  font-size: 14px;
+  color: #768696;
+}
+
+.stats {
+  width: 250px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}

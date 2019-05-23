@@ -1,0 +1,29 @@
+.header {
+  width: 875px;
+  background-color: #00bcd4;
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+  padding-top: 25px;
+  border: 1px #768696;
+}
+
+.line {
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #5c6975;
+  padding-top: 25px;
+  border: 1px #768696;
+}
+
+.line:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.line:nth-child(even) {
+  background-color: #ecf2f3;
+}
